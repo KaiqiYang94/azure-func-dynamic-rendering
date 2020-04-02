@@ -1,4 +1,6 @@
 # Azure Function for Dynamic Rendering
+[![Pulls from Docker Hub](https://img.shields.io/docker/pulls/kaiqiy/azurefunctionsimage.svg)](https://hub.docker.com/r/kaiqiy/azurefunctionsimage) [![Stars on Docker Hub](https://img.shields.io/docker/stars/kaiqiy/azurefunctionsimage.svg)](https://hub.docker.com/r/kaiqiy/azurefunctionsimage)
+
 Azure function running in a docker container which dynamically renders a page of your choice to html. For testing dynamic rendering.
 
 This example runs a headless Chrome in a node environment. Credits to [estruyf](https://github.com/estruyf/azure-function-node-puppeteer) for the docker image.
