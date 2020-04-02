@@ -1,7 +1,7 @@
 # Azure Function for Dynamic Rendering
 Azure function running in a docker container which dynamically renders a page of your choice to html. For testing dynamic rendering.
 
-This example uses `estruyf/azure-function-node-puppeteer` as the docker image.
+This example runs a headless Chrome in a node environment. Credits to [estruyf](https://github.com/estruyf/azure-function-node-puppeteer) for the docker image.
 
 
 ## Development
