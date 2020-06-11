@@ -51,3 +51,10 @@ docker push $dockerid/azurefunctionsimage:v$version
 You can also set up Webhook in docker pointing to the AzureFunction which enables a smooth CI/CD process. Every time an image with at specific tag is pushed, the function will be deployed again.  
 
 More info: [Create a function on Linux using a custom container](https://docs.microsoft.com/en-us/azure/azure-functions/functions-create-function-linux-custom-image?tabs=portal%2Cbash&pivots=programming-language-typescript#push-the-image-to-docker-hub)
+
+
+## Preview
+
+Google:
+- Obviously all the relative path assets will not work, you can set up reverse proxy in your local to preview.
+![](Google.png)
